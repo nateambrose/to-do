@@ -8,48 +8,30 @@
         background: rgb(220,253,255);
         font-family: sans-serif
         }
-        #heading {
+        #myDiv {
          color: rgb(15,20,200) 
          text: center
         }
+        
       </style>
      </head>
      <body>
        <h1 id="heading"><span class ='name'>Nate</span>'s To-Do List:</h1>
        
        
-      /* <table>
-         <thead>
-           <tr>
-             <th>Task Description</th>
-             <th>Type of task</th>
-             <th>Due By:</th>
-           </tr>
-         </thead>
-         <tbody>
-           <tr>
-             <td>learn to build an interactive to-do list</td>
-             <td>Home</td>
-             <td>tomorrow (4/10/20)</td>
-           </tr>
-           <tr>
-             <td>Kiss my bebe</td>
-             <td>Home</td>
-             <td>ALWAYS</td>
-           </tr>
-           <tr>
-             <td>Watch a good movie</td>
-             <td>Home</td>
-             <td>today (4/9/20)</td>
-           </tr>
-         </tbody>
          
-       </table> */
-       
-       <div id="myDIV" class="header">
+       <div id="myDiv" class="header">
          <h2>My To Do List</h2>
          <input type="text" id="myInput" placeholder="Title...">
          <span onclick="newElement()" class="addBtn">Add</span>
        </div>
+       
+       <ul id='myList'>
+         <li>Eat breakfast</li>
+         <li>work out</li>
+         <li>say hi to dad</li>
+         <li>figure out to-do list</li>
+       </ul>
+       
        
      </body>
